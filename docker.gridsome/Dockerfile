@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:latest
 
 # Install build tools
 # Needed by npm install
