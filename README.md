@@ -23,3 +23,14 @@ This blog will get you up and running quickly with a [built-in list of files you
 1. `gridsome create your-repo-name https://github.com/TerabyteTiger/twblog` (replace `your-repo-name` with what you want your repository to be called)
 2. `cd your-repo-name` (same name as above)
 3. Follow the instructions [to update your site](https://twblog.terabytetiger.com/blog/test-post2/)
+
+
+##  Docker 
+
+Build image:
+
+`docker build -t some-name .`
+
+Run image:
+
+`docker run -p 127.0.0.1:80:80 --name some-other-name`
